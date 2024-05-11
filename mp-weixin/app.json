@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/yonghuxinxi/list",
+    "pages/yonghuxinxi/add-or-update",
+    "pages/yonghuxinxi/detail",
+    "pages/zhongzhijidi/list",
+    "pages/zhongzhijidi/add-or-update",
+    "pages/zhongzhijidi/detail",
+    "pages/yunpixiaomaicaishou/list",
+    "pages/yunpixiaomaicaishou/add-or-update",
+    "pages/yunpixiaomaicaishou/detail",
+    "pages/yunpimianfenjiagong/list",
+    "pages/yunpimianfenjiagong/add-or-update",
+    "pages/yunpimianfenjiagong/detail",
+    "pages/mianfenfenlei/list",
+    "pages/mianfenfenlei/add-or-update",
+    "pages/mianfenfenlei/detail",
+    "pages/yunpimianfen/list",
+    "pages/yunpimianfen/add-or-update",
+    "pages/yunpimianfen/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discusszhongzhijidi/list",
+    "pages/discusszhongzhijidi/add-or-update",
+    "pages/discusszhongzhijidi/detail",
+    "pages/discussyunpimianfen/list",
+    "pages/discussyunpimianfen/add-or-update",
+    "pages/discussyunpimianfen/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云匹面粉直供微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#ECC100",
+    "borderStyle": "black",
+    "backgroundColor": "#93C107",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhongzhijidi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "种植基地"
+      },
+      {
+        "pagePath": "pages/yunpimianfenjiagong/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "云匹面粉加工"
+      },
+      {
+        "pagePath": "pages/yunpimianfen/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "云匹面粉"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
